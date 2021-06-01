@@ -1,8 +1,7 @@
-import 'package:EasyBus/admin/admin_dashboard.dart';
+import 'package:EasyBus/admin/ui/dashboard_screen.dart';
 import 'package:EasyBus/providers/auth.dart';
 
 import 'package:EasyBus/screens/all_logins_screen.dart';
-import 'package:EasyBus/student/view_profile.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -20,17 +19,23 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
+    return MaterialApp(
+      home: DashboardScreen(),
+      debugShowCheckedModeBanner: false,
+    );
+    /* 
+    MultiProvider(
       providers: [
         ChangeNotifierProvider.value(
           value: Auth(),
         )
       ],
       child: MaterialApp(
-        home: AdminDashboard(),
+        home: AllLoginScreen(),
         routes: {},
         //AllLoginScreen(),
       ),
     );
+    */
   }
 }
