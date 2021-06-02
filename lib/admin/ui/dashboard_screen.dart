@@ -1,7 +1,7 @@
 import 'package:EasyBus/admin/widgets/card_widget.dart';
+import 'package:EasyBus/admin/widgets/map_widget.dart';
 import 'package:EasyBus/admin/widgets/top_employees.dart';
 import 'package:flutter/material.dart';
-import '../widgets/left_drawer.dart';
 import '../widgets/left_drawer.dart';
 
 class DashboardScreen extends StatefulWidget {
@@ -114,7 +114,7 @@ class _MyWidgetState extends State<DashboardScreen>
                         Row(
                           children: [
                             Container(
-                              height: 450,
+                              height: 500,
                               color: Color(0xFFE7E7E7),
                               padding: const EdgeInsets.all(16),
                               child: Row(
@@ -122,15 +122,10 @@ class _MyWidgetState extends State<DashboardScreen>
                                   Card(
                                     color: Colors.white,
                                     child: Container(
-                                      height: 450,
-                                      width: 850,
-                                      padding: const EdgeInsets.all(16),
-                                      child: Text(
-                                        'Map',
-                                        style: const TextStyle(
-                                            color: Colors.black87),
-                                      ),
-                                    ),
+                                        height: 450,
+                                        width: 850,
+                                        padding: const EdgeInsets.all(16),
+                                        child: MapWidget()),
                                   ),
                                   TopEmployees()
                                 ],

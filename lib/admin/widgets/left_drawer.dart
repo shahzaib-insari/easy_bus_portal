@@ -28,6 +28,7 @@ class LeftDrawer extends StatelessWidget {
             _tile('Registration Requests'),
             _tile('Rescue Vehicle'),
             _tile('View Reports'),
+            _tile('Manage Routes'),
             Container(
                 padding: const EdgeInsets.only(left: 10),
                 margin: const EdgeInsets.only(top: 30, bottom: 15),
