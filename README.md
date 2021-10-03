@@ -1,16 +1,3 @@
 # easy_bus_portal
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The purpose EasyBus Portal is to assist university transport management system to create routes and to manage the drivers, busses and student’s registration etc. Students can get live location of their bus, mark their attendance, check their ride and fee history. Moreover, students can submit suggestions and complain to the management through their portal. Parents will also be able to check bus location, ride and fee history.
